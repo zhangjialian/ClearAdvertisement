@@ -1,0 +1,39 @@
+
+.ui_dom{
+    background-color: red;
+    height: 520px;
+    left: 10px;
+    position: fixed;
+    top: 10px;
+    width: 900px;
+	z-index:99999
+}
+
+.text-bolder{
+    font-weight: bolder;
+}
+
+.admin-contain-box{
+    width: 350px; padding: 20px;
+}
+.row{
+    margin-left: 0;
+    margin-right: 0;
+}
+.text-vertical-align-center{
+    height: 34px;
+    line-height: 34px;
+}
+.admin-link{
+    color: #23527c;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.admin-link-disabled{
+    color: #999999;
+    text-decoration: underline;
+}
+.text-required{
+    color: red;
+    font-weight: bolder;
+}

@@ -1,0 +1,41 @@
+{
+  "name": "百度广告屏蔽",
+  "version": "1.0.1",
+  "description": "难看的吃相，看不见",
+  "permissions": [
+    "http://*/*","https://*/*","contextMenus","activeTab","tabs","browsingData"
+  ],
+  "icons": {
+    "48" : "img/u_check_48.png",
+    "128" : "img/u_check_128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*.baidu.com/*",
+        "http://*.csdn.net/*",
+        "http://*.iteye.com/*"
+      ],
+      "js" : [
+        "js/jquery.min.js",
+        "js/config.js",
+        "injection.js"
+      ],
+      "css" :[
+
+      ]
+    }
+  ],
+  "browser_action": {
+    "default_title": "百度广告屏蔽：title",
+    "default_popup": "panel/showPanel.html"
+  },
+    "background": {
+    "scripts": [
+      "js/jquery.min.js",
+      "js/showPanel.js"
+    ],
+    "persistent": true
+  },
+    "manifest_version": 2
+}
