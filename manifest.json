@@ -15,7 +15,8 @@
         "https://*.baidu.com/*",
         "http://*.csdn.net/*",
         "https://*.csdn.net/*",
-        "http://*.iteye.com/*"
+        "http://*.iteye.com/*",
+        "https://*.2cto.com/*"
       ],
       "js" : [
         "js/jquery.min.js",

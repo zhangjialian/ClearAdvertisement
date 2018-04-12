@@ -17,7 +17,7 @@
 		return false;
 	}
 	/**
-	 * csdn
+	 * 百度联盟相关网页
 	 */
 	setInterval(function(){
 		//$(".J_close.layer_close .fixRight_box iframe, .extension_other iframe, .csdn-tracking-statistics iframe").hide();
