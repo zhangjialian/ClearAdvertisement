@@ -1,26 +1,45 @@
 //$(document).ready(function() {
 
-	setInterval(function(){
-		$("#content_left>div").each(function(){
-			var footerContent = $(this).find("div").eq(2).html();
-			if(isAdviertisement(footerContent)){
-				$(this).hide();
-			}
-		})
-	}, 1000);
+var host = window.location.host;
 
-	function isAdviertisement(footerContent){
-		//console.log(footerContent);
-		if(footerContent.indexOf("广告") > 0){
-			return true;
-		}
-		return false;
+//总共执行的时间，循环执行，防止部分广告内容未加载出来
+var totalTime = 10;
+
+var i = 0;
+setInterval(function(){
+	if(i > totalTime){
+		return;
 	}
-	/**
-	 * 百度联盟相关网页
-	 */
-	setInterval(function(){
-		//$(".J_close.layer_close .fixRight_box iframe, .extension_other iframe, .csdn-tracking-statistics iframe").hide();
-		$("iframe").hide();
-	}, 1000);
-//});
+
+    console.log("开始清除广告");
+
+    /**
+     * 百度搜索页广告
+     */
+	if(host.indexOf("baidu") >= 0){
+        $("#content_left>div").each(function(){
+            var self = $(this);
+            //红底，左上角有个广告的链接
+            var advText1 = self.children("a").children("span").text();
+            if(advText1 == "广告"){
+                self.remove();
+                return;
+            }
+            //普通链接，右下角有个广告的链接
+            self.find("a,span").each(function(){
+                if($(this).text() == "广告"){
+                    self.remove();
+                    return;
+                }
+            })
+
+        })
+	}else{
+        /**
+         * 百度联盟相关网页
+         */
+        $("iframe").hide();
+	}
+
+    i++;
+}, 500);
