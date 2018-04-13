@@ -5,7 +5,7 @@ var host = window.location.host;
 clearAdv();
 
 /**
- *
+ * 百度列表页，点击搜索按钮
  */
 $(".bg.s_btn").click(function(){
 	if (isBaidu()){
@@ -13,6 +13,10 @@ $(".bg.s_btn").click(function(){
 	}
 });
 
+/**
+ * 是否百度页面
+ * @returns {boolean}
+ */
 function isBaidu(){
     return host.indexOf("baidu") >= 0;
 }
@@ -21,7 +25,7 @@ function isBaidu(){
  * 清除广告
  */
 function clearAdv(){
-	//总共执行的时间，循环执行，防止部分广告内容未加载出来
+	//总共执行的次数，循环执行，防止部分广告内容未加载出来
     var totalTime = 10;
 
     var i = 0;

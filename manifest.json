@@ -1,7 +1,7 @@
 {
   "name": "百度广告屏蔽",
-  "version": "1.0.1",
-  "description": "难看的吃相，看不见",
+  "version": "1.0.2",
+  "description": "让天下再没有难看的吃相",
   "permissions": [
     "http://*/*","https://*/*","contextMenus","activeTab","tabs","browsingData"
   ],
@@ -29,7 +29,7 @@
     }
   ],
   "browser_action": {
-    "default_title": "百度广告屏蔽：title",
+    "default_title": "让天下没有难看的吃相",
     "default_popup": "panel/showPanel.html"
   },
     "background": {
