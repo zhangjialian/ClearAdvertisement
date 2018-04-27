@@ -57,7 +57,17 @@ var ClearAdvUtils = {
             /**
              * 百度知道
              */
-            $(".grid-r.qb-side/*,.widget-new-graphic*/").remove();
+            //右侧广告
+            $("aside.grid-r.qb-side>div:not(.wgt-user,.wgt-daily)").remove();
+            //为您推荐、您可能关注的内容
+            $(".wgt-bottom-union,.EC_result").remove();
+            //底部搜索推荐
+            $("iframe").each(function(){
+                //类似于id="iframe2598845_0"的格式
+                if($(this).attr("id").indexOf("iframe") >= 0){
+                    $(this.remove());
+                }
+            })
         }else{
             /**
              * 百度联盟相关网页

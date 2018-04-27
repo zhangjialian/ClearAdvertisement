@@ -1,6 +1,6 @@
 {
   "name": "百度广告屏蔽",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "让天下再没有难看的吃相",
   "permissions": [
     "http://*/*","https://*/*","contextMenus","activeTab","tabs","browsingData"
