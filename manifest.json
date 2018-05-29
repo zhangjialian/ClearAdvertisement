@@ -15,6 +15,7 @@
         "https://*.baidu.com/*",
         "http://*.csdn.net/*",
         "https://*.csdn.net/*",
+        "http://*.jb51.com/*",
         "http://*.iteye.com/*",
         "https://*.2cto.com/*"
       ],
