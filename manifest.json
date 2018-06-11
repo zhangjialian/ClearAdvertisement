@@ -17,7 +17,8 @@
         "https://*.csdn.net/*",
         "http://*.jb51.com/*",
         "http://*.iteye.com/*",
-        "https://*.2cto.com/*"
+        "https://*.2cto.com/*",
+        "http://*.techweb.com.cn/*"
       ],
       "js" : [
         "js/jquery.min.js",
