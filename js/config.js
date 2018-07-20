@@ -73,6 +73,7 @@ var ClearAdvUtils = {
              * 百度联盟相关网页
              */
             $("iframe").remove();
+            $(".csdn-tracking-statistics").remove();
         }
     }
 };
