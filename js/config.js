@@ -75,6 +75,8 @@ var ClearAdvUtils = {
             $("iframe").remove();
             $(".csdn-tracking-statistics.mb8.box-shadow").remove();
             $(".pulllog-box").remove();
+            //2cto嵌入广告
+            $(".ad-widget-imageplus-sticker").remove();
         }
     }
 };
