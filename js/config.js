@@ -75,6 +75,8 @@ var ClearAdvUtils = {
             $("iframe").remove();
             $(".csdn-tracking-statistics.mb8.box-shadow").remove();
             $(".pulllog-box").remove();
+            $(".box-box-aways").remove();
+            $("#_360_interactive").remove();
         }
     }
 };
