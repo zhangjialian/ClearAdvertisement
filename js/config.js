@@ -77,6 +77,8 @@ var ClearAdvUtils = {
             $(".pulllog-box").remove();
             $(".box-box-aways").remove();
             $("#_360_interactive").remove();
+            //2cto嵌入广告
+            $(".ad-widget-imageplus-sticker").remove();
         }
     }
 };
