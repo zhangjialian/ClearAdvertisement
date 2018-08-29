@@ -18,7 +18,8 @@
         "http://*.jb51.com/*",
         "http://*.iteye.com/*",
         "https://*.2cto.com/*",
-        "http://*.techweb.com.cn/*"
+        "http://*.techweb.com.cn/*",
+        "http://*.knowsky.com/*"
       ],
       "js" : [
         "js/jquery.min.js",
