@@ -19,7 +19,8 @@
         "http://*.iteye.com/*",
         "https://*.2cto.com/*",
         "http://*.techweb.com.cn/*",
-        "http://*.knowsky.com/*"
+        "http://*.knowsky.com/*",
+        "http://*.sina.com.cn/*"
       ],
       "js" : [
         "js/jquery.min.js",
