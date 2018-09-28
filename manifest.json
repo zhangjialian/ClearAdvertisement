@@ -20,7 +20,9 @@
         "https://*.2cto.com/*",
         "http://*.techweb.com.cn/*",
         "http://*.knowsky.com/*",
-        "http://*.sina.com.cn/*"
+        "http://*.sina.com.cn/*",
+        "http://*.pansoso.com/*",
+        "http://*.szonline.net/*"
       ],
       "js" : [
         "js/jquery.min.js",
