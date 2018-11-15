@@ -22,7 +22,8 @@
         "http://*.knowsky.com/*",
         "http://*.sina.com.cn/*",
         "http://*.pansoso.com/*",
-        "http://*.szonline.net/*"
+        "http://*.szonline.net/*",
+        "http://*.weather.com.cn/*"
       ],
       "js" : [
         "js/jquery.min.js",
