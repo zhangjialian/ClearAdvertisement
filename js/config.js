@@ -81,6 +81,8 @@ var ClearAdvUtils = {
             $(".ad-widget-imageplus-sticker").remove();
             //csdn侧边广告栏
             $("body>.fourth_column,body>.meau-gotop-box").remove();
+            // csdn中部广告栏
+            $("div[id^='dmp_ad_'],div[id^='kp_box']").remove();
         }
     }
 };
