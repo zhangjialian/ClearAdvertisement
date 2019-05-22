@@ -23,7 +23,8 @@
         "http://*.sina.com.cn/*",
         "http://*.pansoso.com/*",
         "http://*.szonline.net/*",
-        "http://*.weather.com.cn/*"
+        "http://*.weather.com.cn/*",
+        "http://*.ifeng.com/*"
       ],
       "js" : [
         "js/jquery.min.js",
